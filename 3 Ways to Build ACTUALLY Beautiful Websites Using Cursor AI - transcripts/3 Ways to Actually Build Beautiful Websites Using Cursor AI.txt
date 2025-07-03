@@ -1,0 +1,296 @@
+00:00 are you struggling to turn beautiful
+00:02 website designs into actual working code
+00:04 with cursor you're not alone in my
+00:06 previous video about building beautiful
+00:08 websites with cursor you guys absolutely
+00:10 loved it and it got an amazing response
+00:13 here's the thing though in that video I
+00:14 actually showed you how you can get a
+00:16 beautiful UI but I didn't show you how
+00:18 you could properly implement it you
+00:20 can't just go ahead and tell cursor this
+00:22 is the design file or use this reference
+00:24 ask it to clone it and then expect it to
+00:26 work it'll actually start to build stuff
+00:28 on its own which usually ends up as
+00:30 hallucination or AI slop that no one
+00:32 really likes so in today's video I'm
+00:34 going to tell you three ways you can
+00:36 actually build the beautiful UI that you
+00:38 created whether you're coming from my
+00:40 previous video or you're completely new
+00:42 here by the end of this you'll know
+00:44 exactly how to get cursor to build the
+00:46 websites you actually want so in the
+00:48 previous video I actually shared a
+00:50 prompt that allowed you to convert any
+00:52 design image you gave to an AI model
+00:54 like claude or chatgpt into JSON format
+00:57 then using that JSON format you could
+00:60 accurately create a design template and
+01:02 reuse it anywhere well I've also
+01:03 improved that prompt a little bit and
+01:05 made some changes so that the JSON
+01:07 output is even better you'll find this
+01:09 updated prompt in the description as
+01:11 well but to start building projects you
+01:13 can actually scale you need this first
+01:15 method so let's go ahead and get started
+01:17 this is actually a pretty powerful
+01:19 prompt template that we've developed
+01:20 instead of cursor guessing what you want
+01:22 this injects the full functionality and
+01:25 structure of your front-end app right
+01:27 into the AI's context from the start
+01:29 there are specific prompt fields to fill
+01:31 out first the required pages that need
+01:33 to be made then user roles and
+01:35 permissions for authentication if you
+01:37 want authentication in your app which is
+01:39 actually very important for real
+01:41 projects then you absolutely need to
+01:43 include this shared components are also
+01:45 mentioned like navigation bar header and
+01:48 breadcrumbs then we have modals and
+01:50 pop-ups which if you list them at the
+01:52 beginning really helps because the AI
+01:54 will develop the front-end app
+01:55 accordingly and everything gets
+01:57 integrated properly there are also
+01:59 technical requirements you can include
+02:01 which make it way easier to connect the
+02:02 app to a back end later on and you can
+02:04 specify whichever framework you want to
+02:06 use for your app the best part is you
+02:08 don't even have to fill this out
+02:10 yourself if you don't want to for
+02:11 example you can see that I gave the
+02:13 prompt to Claude and it just went ahead
+02:15 and filled everything out for me and the
+02:17 reason I gave this prompt to Claude is
+02:18 what I want to demo so I wanted to make
+02:21 a weather app with the style and design
+02:23 of the cursor landing page you can see
+02:25 it has this gradient infused layout
+02:27 where the same gradient is used
+02:29 throughout all the components what I did
+02:31 was take around six or seven screenshots
+02:33 put them into Claude and gave it the
+02:35 prompt that produces the JSON output you
+02:37 saw earlier claude then generated the
+02:39 JSON for creating a web app with the
+02:41 cursor UI design profile since I wanted
+02:44 to build the full front end of the
+02:46 weather app I told it I'd be using
+02:48 Nex.js with Tailwind so I specified the
+02:50 framework i also asked it to fill out
+02:52 the front-end template we looked at
+02:54 earlier and it did exactly that it
+02:56 created the required pages the user
+02:58 roles and permissions the modles and
+03:00 pop-ups and it even added technical
+03:02 requirements because we gave the full
+03:04 prompt to Claude it could pre-plan all
+03:06 the components that need to be made that
+03:08 means cursor or any AI agent you're
+03:10 using doesn't have to guess or figure
+03:12 out what components to create and you
+03:14 don't have to face the frustration and
+03:16 you can always go back and edit things
+03:18 later nothing here is set in stone all
+03:21 right let me show you the first method
+03:23 in action you can see that I'm in cursor
+03:25 right now and this is the design.json
+03:27 file that I have open here this is the
+03:29 JSON file we got from Claude after that
+03:32 I asked cursor to install a nextjs app i
+03:35 gave it the full prompt that claude
+03:36 filled out using the template i told
+03:38 cursor build the front-end app in this
+03:41 nextjs app and for the design strictly
+03:43 follow the design.json that I provided
+03:46 it went ahead and started creating the
+03:48 app now it did take some time and there
+03:50 were some version conflicts that cursor
+03:52 couldn't handle so I brought in clawed
+03:54 code to help fix those and this is the
+03:56 website it generated you can see that it
+03:59 accurately follows the gradient design
+04:01 we saw on the cursor landing page in the
+04:03 prompt I specifically asked it to focus
+04:05 on how the gradients were created which
+04:07 is why it looks exactly like this if you
+04:09 look at the cards below you'll notice
+04:11 they also mirror how the cards were
+04:13 styled on the cursor landing page the
+04:15 rest of that page was mostly clean and
+04:17 dark so there wasn't much else to pick
+04:19 up from the JSON but as you can see it
+04:21 nailed the gradient design perfectly now
+04:23 I want to be transparent here this
+04:25 design wasn't perfect on the first try
+04:27 cursor made some mistakes that I had to
+04:29 correct but it provided an excellent
+04:31 foundation to work from later on I'll
+04:33 also show how you can accurately do that
+04:36 as well oh and if you're enjoying the
+04:38 content we're making I'd really
+04:40 appreciate it if you hit that subscribe
+04:41 button we're also testing out channel
+04:43 memberships launched the first tier as a
+04:45 test and 79 people have joined so far
+04:48 the support's been incredible so we're
+04:50 thinking about launching additional
+04:51 tiers right now members get priority
+04:54 replies to your comments perfect if you
+04:56 need feedback or have questions now the
+04:58 second method is perfect for when you
+05:00 want to copy the structure of an
+05:02 existing site and then apply your own
+05:04 design on top of it this is incredibly
+05:06 useful because instead of building
+05:07 everything from scratch you can leverage
+05:09 proven layouts and just make them your
+05:11 own for that you can use this amazing
+05:13 tool called Browser MCP it's completely
+05:16 free and I'll link it in the description
+05:18 so you can grab it right after this
+05:19 video browser MCP has two parts you need
+05:22 to set up but don't worry it's
+05:24 straightforward first install the
+05:26 browser extension from the Chrome Web
+05:27 Store this extension is what allows the
+05:29 tool to actually interact with web pages
+05:32 then for any page you want to clone you
+05:34 just connect browser MCP to that
+05:36 specific tab like this second you need
+05:38 to set up the MCP server inside cursor
+05:41 itself go to their documentation and in
+05:43 the install section find the setup for
+05:46 your IDE and paste the config into your
+05:48 MCP.json JSON file pretty
+05:50 straightforward and their documentation
+05:52 walks you through everything once that's
+05:54 done I recommend using the prompt you
+05:56 see here and filling it with the link of
+05:58 the website that you want to clone now I
+06:00 choose the monkey type website as an
+06:02 example but honestly its structure is
+06:04 pretty simple so there wasn't much to
+06:06 copy but even with this basic site it
+06:08 still did a solid job which shows you
+06:10 how powerful this method really is
+06:12 here's why it works so well this MCP
+06:15 actually spins up a real browser and
+06:17 navigates like a real person would it's
+06:19 not just scraping HTML it's actually
+06:21 experiencing the site you can see it has
+06:23 a browser screenshot tool that takes
+06:25 screenshots helping it understand not
+06:27 just the code but the actual visual
+06:29 structure and layout perfectly in the
+06:31 prompt I tell it to explore the website
+06:33 thoroughly and break down the
+06:35 architecture navigation patterns and
+06:37 styling approaches if you want to use
+06:39 your own design with the JSON method
+06:41 from earlier just remove that part from
+06:43 the prompt and it'll focus purely on
+06:45 structure after it gathers all the data
+06:47 from its exploration I asked it to build
+06:49 the clone in next.js and here's the
+06:52 result it created this fully functional
+06:54 site i can type in it it catches errors
+06:57 properly different modes and pages work
+06:59 seamlessly because it actually navigated
+07:02 and understood how the original site
+07:04 functions not just how it looks now this
+07:06 method gives you the perfect foundation
+07:08 and structure but what about when you
+07:09 need to apply your own custom design on
+07:12 top or make precise tweaks to specific
+07:14 elements that's where method 3 comes in
+07:16 and it's a game changer so the third
+07:19 method focuses on something that's
+07:21 absolutely crucial making precise UI
+07:23 tweaks without breaking everything else
+07:25 what I'm going to show you is how to get
+07:27 this interactive bar that lets you
+07:29 select individual or even multiple
+07:31 elements and send them back to Cursor
+07:33 with exact details about their location
+07:35 and what those elements are this
+07:37 eliminates the guesswork and ensures
+07:39 Cursor knows precisely what to edit
+07:41 without messing up the rest of your site
+07:43 and trust me this precision is
+07:44 everything when you're working on real
+07:46 projects where one wrong change can
+07:48 break your entire layout the setup is
+07:50 actually really simple but the results
+07:52 are powerful just go into cursor open
+07:54 the extensions tab and search for stage
+07:56 wise install it then open your command
+07:59 pallet with command plus shift + p type
+08:01 stage wise and it'll bring up all the
+08:03 related commands you need here's
+08:05 something important to keep in mind you
+08:07 have to set up stage wise in each
+08:09 project individually it actually
+08:11 modifies your code and sets everything
+08:13 up automatically for that specific
+08:15 project just select the appropriate
+08:16 option and it will enter a prompt into
+08:18 your cursor agent telling it to
+08:20 initialize the stage wise bar in your
+08:22 project i've already done that setup
+08:24 here and as you can see it ran the full
+08:26 prompt and set everything up perfectly
+08:29 now I have this powerful tool where I
+08:31 can select each element individually and
+08:33 send it back to cursor with exactly how
+08:35 I want it edited no more vague
+08:37 instructions that could be
+08:38 misinterpreted for example look at this
+08:41 restart button right now it's just plain
+08:43 text and only becomes a button when I
+08:45 hover over it that's a small UI tweak
+08:47 but this is exactly where stage wise
+08:49 becomes super handy if I just went back
+08:52 and told cursor to update the restart
+08:54 button there's a chance it might fix it
+08:55 correctly but there's also a chance it
+08:57 might break or alter something else
+08:59 entirely which I obviously don't want
+09:01 instead I can be surgical about it i
+09:03 open the prompt box select the exact
+09:05 element I want to change and write
+09:07 precisely what I want like adding a
+09:09 proper hover animation and making it
+09:11 consistent with the rest of the UI when
+09:13 I send that prompt and go back to cursor
+09:15 you'll see something amazing it includes
+09:17 all the accurate data the element's
+09:19 exact location in the code what I want
+09:22 changed and other useful context
+09:24 information i send the prompt and as you
+09:26 can see the button has been updated
+09:28 perfectly it now matches the rest of the
+09:30 UI with this yellowish theme and when I
+09:32 hover over it there's a subtle animation
+09:35 and this is exactly what I wanted this
+09:37 level of precision is what separates
+09:39 amateur projects from professional ones
+09:41 and Stage Wise makes it accessible to
+09:43 everyone that brings us to the end of
+09:45 this video if you missed my previous
+09:47 video on three ways you can build a
+09:49 beautiful website using cursor the one
+09:52 I've been referencing throughout
+09:53 definitely check that out as well to get
+09:55 the full picture if you found these
+09:57 methods helpful and want to support the
+09:59 channel you can use the super thanks
+10:01 button below it really helps us keep
+10:03 making tutorials like this thanks for
+10:05 watching and I'll see you in the next

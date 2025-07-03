@@ -1,0 +1,73 @@
+{
+  "colors": {
+    "primary": "#F97316",
+    "accent": "#60A5FA",
+    "background": "#FEFCE8",
+    "text_primary": "#1F2937",
+    "text_inverse": "#FFFFFF"
+  },
+  "fonts": {
+    "heading": {
+      "family": "Inter",
+      "weight": "800",
+      "transform": "uppercase",
+      "size_scale": "4xl to 7xl"
+    },
+    "body": {
+      "family": "Inter",
+      "weight": "400",
+      "size": "base"
+    }
+  },
+  "spacing": {
+    "section_padding": "6rem",
+    "component_gap": "2rem",
+    "container_max_width": "1280px"
+  },
+  "shapes": {
+    "buttons": {
+      "border_radius": "full",
+      "padding": "0.75rem 2rem",
+      "hover_effect": "brightness-110"
+    },
+    "avatars": {
+      "shape": "circle",
+      "size": "8rem"
+    },
+    "graphics": {
+      "use_circles": true,
+      "circle_overlay": "accent blue with layering"
+    }
+  },
+  "components": {
+    "hero": {
+      "layout": "two-column",
+      "alignment": "left",
+      "background": "orange with right-side blue circle",
+      "text_style": "stacked, bold, large",
+      "cta": {
+        "text": "See what we're building",
+        "style": "primary button on light background"
+      }
+    },
+    "nav": {
+      "position": "top-fixed",
+      "background": "orange",
+      "text_color": "white",
+      "font_weight": "bold",
+      "uppercase": true
+    },
+    "team_grid": {
+      "columns": 3,
+      "items": "circular avatar, name, 'dabbles in' text",
+      "hover": "color accent or subtle transform"
+    },
+    "cta_banner": {
+      "background": "primary orange",
+      "text_color": "white",
+      "headline": "uppercase, bold",
+      "subtext": "regular font",
+      "button": "white background, orange text"
+    }
+  }
+}

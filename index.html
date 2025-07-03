@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteTown - Design Agency</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="#" alt="ByteTown Logo" class="logo-img">
+                <span class="logo-text">BYTETOWN</span>
+            </div>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#expertise" class="nav-link">Expertise</a>
+                <a href="#cases" class="nav-link">Cases</a>
+                <a href="https://dribbble.com/ByteTown" class="nav-link" target="_blank">Dribbble</a>
+                <a href="https://www.behance.net/bytetown" class="nav-link" target="_blank">Behance</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    IN HOUSE DESIGNERS OR<br>
+                    <span class="gradient-text">SPARK WITH US?</span>
+                </h1>
+                <p class="hero-subtitle">
+                    We know you're in a serious relationship with your designers. 
+                    But hey, one Figma fling never hurt anyone
+                </p>
+                <button class="cta-button" onclick="scrollToSection('contact')">
+                    Try Something New
+                </button>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="collaboration-card">
+                    <div class="card-header">
+                        <div class="user-avatars">
+                            <div class="avatar bytetown-avatar">
+                                <span>B</span>
+                            </div>
+                            <div class="handshake-icon">🤝</div>
+                            <div class="avatar user-avatar">
+                                <span>U</span>
+                            </div>
+                        </div>
+                        <div class="agency-info">
+                            <h3>ByteTown Agency</h3>
+                            <p>Invite you to collaborate</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="figma-file-card">
+                    <div class="file-icon">
+                        <img src="#" alt="Figma" class="figma-icon">
+                    </div>
+                    <div class="file-info">
+                        <span class="file-name">Design.fig</span>
+                        <span class="file-size">120 MB</span>
+                    </div>
+                </div>
+                
+                <!-- Dynamic Video replacing Lego Blocks -->
+                <div class="hero-video-container">
+                    <video class="hero-video" autoplay muted loop playsinline>
+                        <source src="uDwPE_3tji6UBucI2jzT4_output.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="video-overlay">
+                        <div class="video-controls">
+                            <button class="play-pause-btn" onclick="toggleVideo()">
+                                <span class="play-icon">▶</span>
+                                <span class="pause-icon">⏸</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <span>↓ Scroll to discover</span>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">One-night stand in Figma</h2>
+            <p class="section-subtitle">Came for the landing - Stayed for a year</p>
+            
+            <button class="whisper-button">Let's whisper</button>
+            
+            <p class="services-description">
+                When your team is busy or stuck — we jump in. Need something creative? We'll do it. 
+                If it's burning — we'll put it out. If it's boring — we'll set it on fire
+            </p>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="statistics">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3 class="stat-number">86%</h3>
+                    <p class="stat-description">of clients come back. Maybe we forgot to return something</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">9.2</h3>
+                    <p class="stat-description">out of 10 are happy. We're still looking for the other 0.8</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">8,000</h3>
+                    <p class="stat-description">Dribbble followers. Not embarrassing anymore</p>
+                </div>
+                <div class="stat-item">
+                    <h3 class="stat-number">100+</h3>
+                    <p class="stat-description">projects, counted everything — even logos and banners</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="expertise" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="about-title">
+                    So Who WE<br>
+                    <span class="gradient-text">REALLY ARE?</span>
+                </h2>
+                <p class="about-description">
+                    We're the team that knows how to build products — UX/UI, researches, branding, 
+                    and sometimes frontend and backend too. What industries? AI, Fintech, Healthcare, 
+                    Crypto and ambitious companies that care about quality. The Awwwards badge? 
+                    Yeah, it's not just for decoration. Feel free to check our portfolio
+                </p>
+                
+                <div class="portfolio-buttons">
+                    <a href="https://dribbble.com/ByteTown" class="portfolio-btn" target="_blank">
+                        View on Dribbble
+                    </a>
+                    <a href="https://bytetown.agency/#projects" class="portfolio-btn" target="_blank">
+                        View on Website
+                    </a>
+                </div>
+                
+                <div class="awards">
+                    <img src="#" alt="Awwwards" class="award-badge">
+                    <span class="award-text">award-winning</span>
+                </div>
+            </div>
+            
+            <div class="userflow-preview">
+                <div class="userflow-card">
+                    <img src="#" alt="User Flow" class="userflow-icon">
+                    <div class="userflow-info">
+                        <span class="userflow-title">User Flow</span>
+                        <span class="userflow-time">Edited 2 min ago</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="cta-title">Already in a serious design relationship?</h2>
+            <p class="cta-subtitle">No problem - weekdays are for in-house. Friday 4PM is for us</p>
+            
+            <div class="cta-content">
+                <button class="pressure-button">Try without pressure</button>
+                
+                <div class="chat-preview">
+                    <div class="ai-file-card">
+                        <img src="#" alt="Illustrator" class="ai-icon">
+                        <div class="file-details">
+                            <span class="file-name">Logo.ai</span>
+                            <span class="file-size">156 MB</span>
+                        </div>
+                    </div>
+                    
+                    <div class="chat-info">
+                        <div class="company-avatar">
+                            <span>B</span>
+                        </div>
+                        <div class="company-details">
+                            <span class="company-name">ByteTown</span>
+                            <span class="status">• online</span>
+                        </div>
+                    </div>
+                    
+                    <a href="https://t.me/bytetown" class="telegram-button" target="_blank">
+                        Chat on Telegram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="contact-title">Get in touch for collab</h2>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name *" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email Address *" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="company" name="company" placeholder="Company">
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+                <p class="privacy-notice">
+                    Please be informed that after pressing the "Submit" button, your personal data 
+                    will be processed in order to provide appropriate information
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <a href="mailto:partner@bytetown.agency" class="footer-email">
+                        partner@bytetown.agency
+                    </a>
+                    <span class="footer-credit">Made by ByteTown</span>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://t.me/bytetown" class="social-link" target="_blank">Telegram</a>
+                    <a href="https://api.whatsapp.com/send/?phone=77078253101&text&type=phone_number&app_absent=0" class="social-link" target="_blank">WhatsApp</a>
+                    <a href="https://dribbble.com/ByteTown" class="social-link" target="_blank">Dribbble</a>
+                    <a href="https://www.behance.net/bytetown" class="social-link" target="_blank">Behance</a>
+                    <a href="https://www.linkedin.com/company/bytetown" class="social-link" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Thank you!</h3>
+            <p>Your request has been sent successfully. We will contact you soon!</p>
+            <button onclick="sendAnother()">Send another one</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

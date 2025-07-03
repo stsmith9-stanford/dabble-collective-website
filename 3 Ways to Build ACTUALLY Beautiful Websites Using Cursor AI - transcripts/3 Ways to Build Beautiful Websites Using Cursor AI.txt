@@ -1,0 +1,281 @@
+00:00 let's be honest your AI generated
+00:02 websites look terrible and I know
+00:04 exactly why you're going into cursor or
+00:06 claude and just typing make it beautiful
+00:09 or make it look professional then
+00:11 wondering why you end up with the same
+00:12 boring generic designs that look like
+00:15 every other AI built site out there the
+00:17 problem isn't the AI it's how you're
+00:19 using it today I'm going to show you
+00:21 three proven methods and some
+00:22 game-changing tricks that will
+00:24 completely elevate your websites and
+00:26 make them look absolutely stunning so
+00:28 jumping right into it the first method
+00:30 is to take a design that's already been
+00:32 made and clone it perfectly here's how
+00:34 it works you need to extract a proper
+00:37 design profile from whatever you want to
+00:39 replicate for example I grabbed this
+00:41 random design if I want to make a
+00:43 website web app or mobile app that looks
+00:45 exactly like this I can ask any AI
+00:48 claude chat GPT whatever to create a
+00:51 JSON design system that extracts all the
+00:53 visual data from what I've provided then
+00:55 I give this JSON output to cursor and
+00:58 boom consistent styling the output
+00:60 should include the style structure and
+01:02 I'll give the AI some autonomy to decide
+01:05 anything else that helps replicate this
+01:07 design perfectly and here we have it our
+01:09 design system JSON file with all the
+01:11 data we need to replicate this design
+01:13 now let's actually test it out and see
+01:15 if it works so here's what we did we
+01:18 gave it a prompt to build a
+01:19 comprehensive educational dashboard with
+01:21 all the features we needed notice we
+01:23 didn't mention anything about design in
+01:24 the prompt itself we just told it we
+01:26 needed the app in HTML CSS and
+01:29 JavaScript and to follow the design.json
+01:32 file this is that file i pasted the JSON
+01:34 that Claude generated and told cursor to
+01:37 follow it and look at what it created
+01:39 this beautiful looking app that clearly
+01:41 matches our target design we've got
+01:43 these clean notifications an attractive
+01:45 layout that matches exactly what we were
+01:47 going for and even this sleek navigation
+01:49 bar the result it cloned the design
+01:52 almost perfectly this is the power of
+01:54 giving AI a proper design system instead
+01:56 of just saying make it pretty so method
+01:59 one was perfect when you had a design to
+02:01 copy but what if you want to create
+02:03 something completely original well for
+02:05 that I have this amazing website called
+02:07 Tweak CN basically it lets you create
+02:10 your own perfect Shad CN UI setup from
+02:12 scratch if you don't know what Shad CN
+02:14 UI is or you're not familiar with
+02:16 components don't worry i'll show
+02:18 examples that'll make the concept clear
+02:20 when you visit this website and start
+02:22 customizing you'll see this preview
+02:24 interface they've given us on the left
+02:26 you have options for customizing it
+02:28 however you want for example I'm in the
+02:30 colors tab right now and we can change
+02:32 the color to anything we want you can
+02:34 see the color changing as I drag the
+02:36 slider and that's just the primary color
+02:38 we can also change the accent colors
+02:40 base colors and even the card colors so
+02:43 everything is completely customizable
+02:45 and not only colors but typography as
+02:47 well we can change the fonts too if we
+02:49 go into others there are more options
+02:51 one of them is shadow which adjusts the
+02:53 shadow of the components it completely
+02:55 gives you the ability to customize
+02:57 however you want let me show you if you
+02:59 just shuffle these you'll see the
+03:00 different types of customizations and
+03:02 themes you can create and if these are
+03:04 just the default options imagine what
+03:06 you could design yourself and this is
+03:08 just the cards tab if we go to dashboard
+03:10 or mail tabs there are more previews as
+03:13 well it gives you everything including
+03:15 dark mode and light mode so you know how
+03:17 your app looks in both themes if you
+03:19 like what you've created go to the code
+03:21 tab copy the code paste it into an
+03:23 index.css file in your directory just
+03:26 like method one then ask cursor to build
+03:28 your project from this file now methods
+03:30 one and two were great for getting the
+03:33 overall design and styling right but
+03:35 here's method three and this one's all
+03:37 about taking your apps to the next level
+03:39 with premium components so another way
+03:42 to make your websites or apps look
+03:44 really really good especially if you're
+03:46 making web apps with React is by using
+03:48 React components which honestly look
+03:50 amazing for example we have this library
+03:52 right here called React Bits which gives
+03:54 you animated React components i'm going
+03:57 to show you these components in a bit
+03:59 and they look pretty awesome but this
+04:00 isn't the only library there are
+04:02 actually a lot of other component
+04:04 libraries out there and many people find
+04:06 Aceternity UI pretty good as well some
+04:08 of these libraries are paid but even in
+04:10 those you'll find free components that
+04:12 are really worth using as opposed to
+04:14 just going ahead and telling AI to
+04:16 generate everything by itself so let's
+04:19 go ahead and actually use some
+04:20 components from this React Bits library
+04:22 in our app and let me show you how the
+04:24 process works as well let's take this
+04:26 landing page as our example it's just a
+04:29 standard landing page nothing impressive
+04:31 about it i came into cursor told it to
+04:33 install a Next.js app and create a
+04:35 landing page with six sections i could
+04:38 customize later cursor set everything up
+04:40 and created the whole thing now I want
+04:42 to upgrade this with custom components
+04:44 you can see in our powerful features
+04:46 section we have these basic cards what
+04:48 if I want to make these cards look
+04:50 absolutely amazing here in React Bits
+04:52 there's this component called tinted
+04:54 card look at this effect it makes the
+04:56 card 3D and as you move around it it
+04:59 tilts this is exactly what I want to add
+05:01 another amazing thing is you can
+05:03 customize the component before copying
+05:05 it into your app you can install it
+05:06 directly or just get the code which is
+05:09 what I'm going to do first i'm copying
+05:11 the entire component code notice it has
+05:13 a prerequisite framer motion which needs
+05:16 to be installed for the component to
+05:17 work correctly now heading back into
+05:19 cursor I'm going to tell it exactly what
+05:22 I want name the section where this
+05:24 should be implemented tell it to use the
+05:26 component I'm providing as the card for
+05:28 that specific section and make sure it
+05:30 installs the framer motion dependency
+05:32 here's the component code I copied and
+05:34 I'm giving this whole thing as a prompt
+05:36 to cursor right now cursor is done
+05:38 generating the code it took its time but
+05:41 now let me show you how these component
+05:43 cards turned out this is the features
+05:45 section we had before and now watch this
+05:47 if I hover over the cards and move the
+05:49 cursor around it has that exact same
+05:52 rotation effect we saw in the component
+05:54 library and it works perfectly on all
+05:56 the cards now I'll be honest I did run
+05:58 into some errors during integration
+05:60 sometimes when components are more
+06:02 complex you might hit a few bumps for
+06:04 example the tinted card component I used
+06:06 had a background image in the original
+06:08 code cursor automatically added a stock
+06:10 placeholder image when it saw that I had
+06:12 to ask it to remove the background image
+06:14 which it did without any issues and
+06:16 here's our final result smooth 3D
+06:19 tilting cards that look absolutely
+06:21 professional compared to the basic ones
+06:23 we started with oh and if you're
+06:25 enjoying the content we're making I'd
+06:27 really appreciate it if you hit that
+06:29 subscribe button we're also testing out
+06:31 channel memberships launched the first
+06:32 tier as a test and 50 people jumped in
+06:35 immediately the support's been
+06:36 incredible so we're thinking about
+06:38 launching additional tiers right now
+06:40 members get priority replies to your
+06:42 comments perfect if you need feedback or
+06:44 have questions now those three methods
+06:46 will give you the foundation for amazing
+06:49 looking apps but there are some
+06:50 essential techniques beyond that crucial
+06:52 details that separate amateur projects
+06:55 from professional ones let's talk about
+06:57 animations if you want to add animations
+06:59 to your websites or apps here's the
+07:01 golden rule don't overdo it ask it to
+07:03 animate everything and your site will
+07:05 look unprofessional and distracting so
+07:08 how do you do this right for any 3D
+07:10 effect you want just ask chat GPT or
+07:12 Claude to tell you exactly how to prompt
+07:14 cursor to add that specific effect to
+07:17 whatever section you want but if you
+07:19 want smooth animations and micro
+07:20 interactions that actually elevate your
+07:23 website focus on these types of effects
+07:25 subtle movements that every professional
+07:28 site needs just mention the exact effect
+07:30 you want and AI will implement it
+07:32 perfectly the key is being specific
+07:34 about the animation you want not just
+07:36 saying make it animated another crucial
+07:39 element that instantly elevates your
+07:41 design is the fonts you choose using
+07:43 fonts that actually match your project's
+07:45 vibe can take it from amateur to
+07:47 professional in seconds take our landing
+07:49 page here if I want to change the main
+07:51 text in the hero section where do I find
+07:53 the right fonts how do I explore options
+07:55 that actually work google Fonts is your
+07:58 best resource they have an extensive
+07:60 library with different artistic styles
+08:02 and amazing filters to help you find
+08:04 exactly what you're looking for for
+08:06 example I found this font that's perfect
+08:08 for my hero section i'll open it up and
+08:10 hit the get font button here's the get
+08:12 embedded code option this gives you the
+08:14 code to embed in your project making the
+08:16 font instantly available now I'm heading
+08:18 back into cursor i'll give it the
+08:20 embedded code so it can import the font
+08:22 and tell it to apply this to the main
+08:24 heading in the hero section back to the
+08:26 website and look at that the font is
+08:28 applied and it honestly makes the
+08:30 website look dramatically better it's
+08:32 amazing how much difference the right
+08:34 typography makes now I know you've heard
+08:36 that you need to be specific with AI but
+08:39 many people miss this point every single
+08:41 day a perfect example is designing
+08:43 layouts you can't just say make an app
+08:46 or make a site responsive it'll get the
+08:48 job done but it won't be perfect and
+08:50 there will still be bugs instead specify
+08:52 the exact layout you want like here I
+08:55 told it to create a bento layout that
+08:57 becomes a single column on mobile i
+08:59 purposely specified how the layout
+09:01 should function and I put this into a
+09:03 file so I could show you the results
+09:05 look at this bento layout we have these
+09:07 cards arranged perfectly now if I switch
+09:10 this to mobile view you can see the
+09:12 cards seamlessly transition into a
+09:14 single column creating a much better
+09:16 user experience and here are some
+09:17 examples of other layouts you can
+09:19 specify and implement in your own
+09:21 applications i'll also leave some links
+09:24 to other resources you can use to make
+09:26 your websites and apps even more
+09:27 beautiful definitely go ahead and check
+09:29 them out most importantly try at least
+09:32 one of these methods and implement it in
+09:34 your own app you'll be amazed at the
+09:35 difference it makes that brings us to
+09:37 the end of this video if you found these
+09:39 methods helpful and want to support the
+09:41 channel you can use the super thanks
+09:43 button below it really helps us keep
+09:45 making tutorials like this thanks for
+09:47 watching and I'll see you in the next
+09:49 one
