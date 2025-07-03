@@ -79,4 +79,4 @@ The toolbar will automatically load and be available at the bottom of the page.
 
 - Environment files (`.env.local`) are not committed to version control
 - Analytics are disabled by default for privacy
-- API keys are only used for authentication with Stagewise services 
+- API keys are only used for authentication with Stagewise services
