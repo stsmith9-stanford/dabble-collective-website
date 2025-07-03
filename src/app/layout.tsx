@@ -2,8 +2,6 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
-import { StagewiseToolbar } from '@stagewise/toolbar-next'
-import { ReactPlugin } from '@stagewise-plugins/react'
 
 export const metadata: Metadata = {
   title: 'Dabble Collective',
@@ -24,11 +22,6 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
-        <StagewiseToolbar 
-          config={{
-            plugins: [ReactPlugin]
-          }}
-        />
       </body>
     </html>
   )

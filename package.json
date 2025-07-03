@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@stagewise-plugins/react": "^0.4.9",
-    "@stagewise/toolbar-next": "^0.4.9",
     "next": "14.0.3",
     "react": "^18",
     "react-dom": "^18"
