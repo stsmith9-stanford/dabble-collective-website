@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import './globals.css'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
+import StagewiseInit from '@/components/StagewiseInit'
 
 export const metadata: Metadata = {
   title: 'Dabble Collective',
@@ -22,6 +23,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <StagewiseInit />
       </body>
     </html>
   )

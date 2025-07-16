@@ -18,11 +18,11 @@ const Hero: React.FC<HeroProps> = ({
   return (
     <section className="relative bg-primary section-padding mt-16 overflow-hidden">
       {/* Geometric circles - positioned to enhance, not block content */}
-      {/* Large blue circle - positioned behind content, won't block text */}
-      <div className="absolute right-0 top-0 w-[400px] h-[400px] bg-accent rounded-full translate-x-1/2 -translate-y-1/4 opacity-90"></div>
+      {/* Large blue circle - positioned behind cream circle */}
+      <div className="absolute right-0 top-1/4 w-[600px] h-[600px] bg-accent rounded-full -translate-x-1/4 translate-y-1/4 opacity-90 z-[1]"></div>
       
       {/* Cream circle - positioned at bottom edge, extends below section */}
-      <div className="absolute right-8 bottom-0 w-[280px] h-[280px] bg-background rounded-full translate-y-1/2 opacity-95"></div>
+      <div className="absolute right-8 bottom-0 w-[280px] h-[280px] bg-background rounded-full translate-y-1/2 opacity-95 z-[2]"></div>
       
       <div className="container-custom relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
