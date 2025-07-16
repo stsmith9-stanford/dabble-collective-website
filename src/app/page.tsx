@@ -55,6 +55,7 @@ export default function Home() {
               title="Stanford-Rooted Methodology"
               description="Our work is built on Stanford's Design Thinking foundation. We begin with empathetic Needfinding, explore through structured Play, and refine through rapid Prototyping and Iteration."
               bgColor="bg-primary"
+              showTooltip={false}
             />
             
             <TiltedCard 
@@ -62,6 +63,7 @@ export default function Home() {
               title="Cohesive Multi-disciplinary Team"
               description="Dabble is a curated team of 12 experts. Our size is our strength—enabling deep collaboration, agility, and shared consciousness that larger firms cannot replicate."
               bgColor="bg-accent"
+              showTooltip={false}
             />
             
             <TiltedCard 
@@ -69,44 +71,13 @@ export default function Home() {
               title="Virtuous Innovation Cycle"
               description="We operate a dual model: consulting work immerses us in complex challenges, while our in-house products serve as living laboratories for our most ambitious ideas."
               bgColor="bg-primary"
+              showTooltip={false}
             />
           </div>
         </div>
       </section>
 
-      {/* Demo Section for New TiltedCard Implementation */}
-      <section className="py-24 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-text_primary mb-4">Enhanced Card Demo</h2>
-            <p className="text-lg text-text_primary max-w-3xl mx-auto">
-              Example of the new TiltedCard implementation with image support.
-            </p>
-          </div>
-          
-          <div className="flex justify-center">
-            <TiltedCard
-              imageSrc="https://i.scdn.co/image/ab67616d0000b273d9985092cd88bffd97653b58"
-              altText="Kendrick Lamar - GNX Album Cover"
-              captionText="Kendrick Lamar - GNX"
-              containerHeight="300px"
-              containerWidth="300px"
-              imageHeight="300px"
-              imageWidth="300px"
-              rotateAmplitude={12}
-              scaleOnHover={1.2}
-              showMobileWarning={false}
-              showTooltip={true}
-              displayOverlayContent={true}
-              overlayContent={
-                <p className="tilted-card-demo-text">
-                  Kendrick Lamar - GNX
-                </p>
-              }
-            />
-          </div>
-        </div>
-      </section>
+
 
       <TeamGrid 
         members={featuredTeamMembers}
