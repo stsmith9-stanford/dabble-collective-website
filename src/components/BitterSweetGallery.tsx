@@ -10,7 +10,7 @@ export default function BitterSweetGallery() {
 
   const galleryImages = [
     {
-      src: "/bittersweet/card-blue-yellow.png",
+      src: "/bittersweet/card-yellow-orange-blue rotated.png",
       alt: "BitterSweet Card - Pick a Card",
       title: "Pick a Card",
       description: "Draw from a deck of evocative cards",
@@ -19,15 +19,15 @@ export default function BitterSweetGallery() {
     {
       src: "/bittersweet/card-red-orange-purple.png", 
       alt: "BitterSweet Card - Choose your path",
-      title: "Choose your path",
-      description: "Decide what you value",
+      title: "Choose a path",
+      description: "Decide what you value and what you want to change",
       number: "2"
     },
     {
       src: "/bittersweet/card-yellow-orange-blue.png",
       alt: "BitterSweet Card - Gain Insight", 
       title: "Gain Insight",
-      description: "Feel and reflect",
+      description: "Feel the weight and reflect on your choices",
       number: "3"
     }
   ]
@@ -63,7 +63,7 @@ export default function BitterSweetGallery() {
         <div className="absolute bottom-1/4 right-0 w-80 h-80 bg-bs-gradient-end/10 rounded-full blur-3xl"></div>
       </div>
 
-      <div className="container mx-auto px-6 relative z-10">
+      <div className="container mx-auto px-16 relative z-10">
         <motion.div 
           className="text-center mb-16"
           initial={{ opacity: 0, y: 30 }}
@@ -98,9 +98,9 @@ export default function BitterSweetGallery() {
                 imageSrc={image.src}
                 altText={image.alt}
                 captionText={image.title}
-                containerHeight="460px"
+                containerHeight="260px"
                 containerWidth="100%"
-                imageHeight="460px"
+                imageHeight="260px"
                 imageWidth="100%"
                 rotateAmplitude={14}
                 scaleOnHover={1.05}
@@ -108,7 +108,7 @@ export default function BitterSweetGallery() {
                 showTooltip={false}
                 displayOverlayContent={true}
                 overlayContent={
-                  <div className="p-8 h-full flex flex-col justify-between">
+                  <div className="p-2 h-full flex flex-col justify-between">
                     <div className="text-6xl font-bold text-black mb-4">
                       {image.number}
                     </div>
@@ -127,34 +127,6 @@ export default function BitterSweetGallery() {
           ))}
         </motion.div>
 
-        {/* Gallery Stats */}
-        <motion.div 
-          className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto"
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          viewport={{ once: true }}
-        >
-          {[
-            { number: "52", label: "Unique Cards", icon: "🎨" },
-            { number: "∞", label: "Possibilities", icon: "♾️" },
-            { number: "1", label: "You", icon: "💎" }
-          ].map((stat, index) => (
-            <div key={index} className="text-center group">
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 border border-bs-accent/10 hover:border-bs-accent/30">
-                <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
-                  {stat.icon}
-                </div>
-                <div className="text-3xl lg:text-4xl font-bs-heading font-bold text-bs-text-primary mb-2">
-                  {stat.number}
-                </div>
-                <div className="text-bs-text-secondary font-bs-body">
-                  {stat.label}
-                </div>
-              </div>
-            </div>
-          ))}
-        </motion.div>
       </div>
 
       {/* Modal for enlarged image */}
