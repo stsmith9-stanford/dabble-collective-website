@@ -40,10 +40,10 @@ export default function BitterSweetCTA() {
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
           >
-            <button className="w-full lg:w-auto bg-bs-text-primary hover:bg-bs-text-secondary text-white font-bold py-5 px-12 rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl text-lg">
+            <button className="w-full lg:w-auto bg-[#FBE8AB] hover:bg-bs-text-secondary text-black font-bold py-5 px-12 rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl text-lg">
               Bring BitterSweet to Your Organization
             </button>
-            <button className="w-full lg:w-auto border-3 border-bs-text-primary text-bs-text-primary hover:bg-bs-text-primary hover:text-white font-bold py-5 px-12 rounded-full transition-all duration-300 text-lg">
+            <button className="w-full lg:w-auto border-3 border-bs-text-primary text-bs-text-primary hover:bg-bs-text-primary hover:text-[#6B986A] font-bold py-5 px-12 rounded-full transition-all duration-300 text-lg">
               Subscribe for Updates
             </button>
           </motion.div>

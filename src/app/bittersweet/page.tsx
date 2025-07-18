@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import BitterSweetNavigation from '@/components/BitterSweetNavigation'
 import BitterSweetHero from '@/components/BitterSweetHero'
 import BitterSweetGallery from '@/components/BitterSweetGallery'
 import BitterSweetCTA from '@/components/BitterSweetCTA'
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 export default function BitterSweetPage() {
   return (
     <div className="min-h-screen">
+      <BitterSweetNavigation />
       <BitterSweetHero />
       <BitterSweetGallery />
       <BitterSweetCTA />

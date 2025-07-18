@@ -41,7 +41,7 @@ export default function BitterSweetHero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
             >
-              A game that blends reflection and feeling, Bittersweet invite’s you to a journey through the spectrum of human emotions.
+              A game of choices, burdens, and womanhood.
             </motion.p>
 
             <motion.div 
