@@ -15,7 +15,6 @@
     "react-dom": "^18"
   },
   "devDependencies": {
-    "@stagewise/toolbar": "^0.4.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

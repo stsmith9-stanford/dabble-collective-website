@@ -1,5 +1,7 @@
 import Hero from '@/components/Hero'
 import CTABanner from '@/components/CTABanner'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 const philosophyPillars = [
   {
@@ -38,7 +40,9 @@ const philosophyPillars = [
 
 export default function Philosophy() {
   return (
-    <main>
+    <>
+      <Navigation />
+      <main>
       <Hero 
         title="Our Philosophy: Design Thinking in Action"
         subtitle="Rooted in Stanford's proven innovation methodology, our approach transforms complex challenges into elegant solutions through empathy, experimentation, and systems thinking."
@@ -149,6 +153,8 @@ export default function Philosophy() {
         buttonText="Begin with Needfinding"
         buttonHref="/contact"
       />
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 } 

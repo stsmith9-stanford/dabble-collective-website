@@ -1,5 +1,7 @@
 import Hero from '@/components/Hero'
 import CTABanner from '@/components/CTABanner'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 const consultingOfferings = [
   {
@@ -84,7 +86,9 @@ const caseStudyHighlights = [
 
 export default function Consulting() {
   return (
-    <main>
+    <>
+      <Navigation />
+      <main>
       <Hero 
         title="Transform Challenges into Opportunities"
         subtitle="We partner with forward-thinking organizations to solve complex challenges through Stanford-rooted design methodology. From discovery to implementation, we're your collaborative thinking partners."
@@ -263,6 +267,8 @@ export default function Consulting() {
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 } 

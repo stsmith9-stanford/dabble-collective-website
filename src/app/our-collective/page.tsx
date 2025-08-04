@@ -1,6 +1,8 @@
 import Hero from '@/components/Hero'
 import TeamGrid from '@/components/TeamGrid'
 import CTABanner from '@/components/CTABanner'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 // Real team data - all 12 members
 const teamMembers = [
@@ -115,7 +117,9 @@ const collectiveValues = [
 
 export default function About() {
   return (
-    <main>
+    <>
+      <Navigation />
+      <main>
       <Hero 
         title="The Power of 12"
         subtitle="We believe the best innovation happens at the intersection of diverse minds and shared purpose. Meet the curated collective that makes breakthrough thinking possible."
@@ -248,6 +252,8 @@ export default function About() {
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 } 

@@ -2,6 +2,8 @@ import Hero from '@/components/Hero'
 import TeamGrid from '@/components/TeamGrid'
 import CTABanner from '@/components/CTABanner'
 import TiltedCard from '@/components/TiltedCard'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 // Real team data - showing first 3 members on home page
 const featuredTeamMembers = [
@@ -30,7 +32,9 @@ const featuredTeamMembers = [
 
 export default function Home() {
   return (
-    <main>
+    <>
+      <Navigation />
+      <main>
       <Hero 
         title="Designing What's Next. Playfully. Rigorously."
         subtitle="We exist at the intersection of playful exploration and rigorous intellectual inquiry. As a systems-oriented design studio, we deconstruct complex challenges and build elegant, human-centered solutions rooted in Stanford's proven innovation methodologies."
@@ -91,6 +95,8 @@ export default function Home() {
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 } 

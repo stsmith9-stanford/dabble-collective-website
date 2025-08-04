@@ -1,5 +1,7 @@
 import Hero from '@/components/Hero'
 import CTABanner from '@/components/CTABanner'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 const products = [
   {
@@ -125,7 +127,9 @@ const productCategories = [
 
 export default function Products() {
   return (
-    <main>
+    <>
+      <Navigation />
+      <main>
       <Hero 
         title="Building What's Next"
         subtitle="Our products are living laboratories for our most ambitious ideas. Each one represents a hypothesis about the future, tested through real-world application and refined through user feedback."
@@ -341,6 +345,8 @@ export default function Products() {
         buttonText="Start Building Together"
         buttonHref="/consulting"
       />
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 } 

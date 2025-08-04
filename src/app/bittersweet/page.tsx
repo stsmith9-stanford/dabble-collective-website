@@ -5,7 +5,7 @@ import BitterSweetGallery from '@/components/BitterSweetGallery'
 import BitterSweetCTA from '@/components/BitterSweetCTA'
 
 export const metadata: Metadata = {
-  title: 'BitterSweet - Premium Artisan Product | Dabble Collective',
+  title: 'BitterSweet - Exploring the invisible systems that shape women\'s lives | Dabble Collective',
   description: 'Discover BitterSweet, a carefully crafted artisan product that brings together contrasting flavors and experiences.',
   keywords: ['BitterSweet', 'artisan', 'premium', 'handcrafted', 'Dabble Collective'],
 }

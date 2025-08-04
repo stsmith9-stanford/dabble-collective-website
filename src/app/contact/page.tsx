@@ -1,10 +1,14 @@
 'use client'
 
 import Hero from '@/components/Hero'
+import Navigation from '@/components/Navigation'
+import Footer from '@/components/Footer'
 
 export default function Contact() {
   return (
-    <main>
+    <>
+      <Navigation />
+      <main>
       <Hero 
         title="Let's Build What's Next"
         subtitle="Every breakthrough starts with a conversation. Whether you're facing a complex challenge or exploring new possibilities, we're here to listen, understand, and collaborate."
@@ -236,6 +240,8 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </main>
+      </main>
+      <Footer />
+    </>
   )
 } 
