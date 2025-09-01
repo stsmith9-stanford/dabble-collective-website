@@ -17,11 +17,11 @@
     },
     {
       "src": "/courses",
-      "dest": "https://dabble-collective-website-fubg.vercel.app/courses"
+      "dest": "https://dabble-collective-website-fubg.vercel.app"
     },
     {
       "src": "/courses/(.*)",
-      "dest": "https://dabble-collective-website-fubg.vercel.app/courses/"
+      "dest": "https://dabble-collective-website-fubg.vercel.app/"
     }
   ]
 }
