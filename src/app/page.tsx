@@ -22,11 +22,11 @@ const featuredTeamMembers = [
     image: '/team/headshots/sf-headshot-sanzhar-myrzagalym-2503040730.jpg.webp'
   },
   {
-    id: 'brigid-white',
-    name: 'Brigid White',
-    dabbles: 'UX Design & Adventure Education',
-    bio: 'Adobe and NVIDIA alum turned educator. Finds creative inspiration through action sports and movement.',
-    image: '/team/headshots/sf-headshot-brigid-white-2503040730.jpg.webp'
+    id: 'rishika-gundi',
+    name: 'Rishika Gundi',
+    dabbles: 'Medical Device Engineering',
+    bio: 'Medical device engineer passionate about improving healthcare access in underserved communities.',
+    image: '/team/headshots/sf-headshot-rishika-gundi-2504221700.jpg.webp'
   },
 ]
 
@@ -35,42 +35,42 @@ export default function Home() {
     <>
       <Navigation />
       <main>
-      <Hero 
+      <Hero
         title="Designing What's Next. Playfully. Rigorously."
         subtitle="We exist at the intersection of playful exploration and rigorous intellectual inquiry. As a systems-oriented design studio, we deconstruct complex challenges and build elegant, human-centered solutions rooted in Stanford's proven innovation methodologies."
         ctaText="How We Dabble"
         ctaHref="/philosophy"
       />
-      
+
       {/* Three Core Pillars Section */}
       <section className="py-24 bg-background">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-text_primary mb-4">The Dabble Difference</h2>
             <p className="text-lg text-text_primary max-w-3xl mx-auto">
-              Our approach isn't a checklist—it's the DNA of how we think and create. 
+              Our approach isn't a checklist—it's the DNA of how we think and create.
               Three core pillars define our unique value proposition.
             </p>
           </div>
-          
+
           <div className="grid md:grid-cols-3 gap-8">
-            <TiltedCard 
+            <TiltedCard
               number="1"
               title="Stanford-Rooted Methodology"
               description="Our work is built on Stanford's Design Thinking foundation. We begin with empathetic Needfinding, explore through structured Play, and refine through rapid Prototyping and Iteration."
               bgColor="bg-primary"
               showTooltip={false}
             />
-            
-            <TiltedCard 
+
+            <TiltedCard
               number="2"
               title="Cohesive Multi-disciplinary Team"
-              description="Dabble is a curated team of 12 experts. Our size is our strength—enabling deep collaboration, agility, and shared consciousness that larger firms cannot replicate."
+              description="Dabble is a curated team of 11 experts. Our size is our strength—enabling deep collaboration, agility, and shared consciousness that larger firms cannot replicate."
               bgColor="bg-accent"
               showTooltip={false}
             />
-            
-            <TiltedCard 
+
+            <TiltedCard
               number="3"
               title="Virtuous Innovation Cycle"
               description="We operate a dual model: consulting work immerses us in complex challenges, while our in-house products serve as living laboratories for our most ambitious ideas."
@@ -83,13 +83,13 @@ export default function Home() {
 
 
 
-      <TeamGrid 
+      <TeamGrid
         members={featuredTeamMembers}
         title="Meet Our Collective"
-        subtitle="12 brilliant minds, curated for impact. Each member brings a unique lens—from engineering to anthropology—creating powerful synthesis for every challenge."
+        subtitle="11 brilliant minds, curated for impact. Each member brings a unique lens—from engineering to anthropology—creating powerful synthesis for every challenge."
       />
 
-      <CTABanner 
+      <CTABanner
         headline="Ready to build what's next?"
         subtext="Let's explore how our Stanford-rooted methodology and collaborative approach can transform your biggest challenges into breakthrough solutions."
         buttonText="Start a Conversation"
@@ -99,4 +99,4 @@ export default function Home() {
       <Footer />
     </>
   )
-} 
+}

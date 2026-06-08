@@ -4,7 +4,7 @@ import CTABanner from '@/components/CTABanner'
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 
-// Real team data - all 12 members
+// Real team data - all active members
 const teamMembers = [
   {
     id: 'anastasha-gunawan',
@@ -19,13 +19,6 @@ const teamMembers = [
     dabbles: 'AI Architecture & Entrepreneurship',
     bio: '9 years at Microsoft as IT-architect specializing in Data and AI. Co-founded multiple startups in hardware and AI. Passionate about healthtech, spacetech, and climatetech. Loves building, swimming, and good music.',
     image: '/team/headshots/sf-headshot-sanzhar-myrzagalym-2503040730.jpg.webp'
-  },
-  {
-    id: 'brigid-white',
-    name: 'Brigid White',
-    dabbles: 'UX Design & Adventure Education',
-    bio: 'Adobe and NVIDIA alum turned Title 1 teacher. Action sports enthusiast who finds creative inspiration through movement. Explores intersections of play, education, and community through design.',
-    image: '/team/headshots/sf-headshot-brigid-white-2503040730.jpg.webp'
   },
   {
     id: 'rishika-gundi',
@@ -120,8 +113,8 @@ export default function About() {
     <>
       <Navigation />
       <main>
-      <Hero 
-        title="The Power of 12"
+      <Hero
+        title="The Power of 11"
         subtitle="We believe the best innovation happens at the intersection of diverse minds and shared purpose. Meet the curated collective that makes breakthrough thinking possible."
         ctaText="See Our Work"
         ctaHref="/consulting"
@@ -134,18 +127,18 @@ export default function About() {
             <h2 className="text-3xl md:text-4xl font-bold text-text_primary mb-6">Our Story</h2>
             <div className="space-y-6 text-lg text-gray-600 leading-relaxed text-left">
               <p>
-                Dabble was born from a simple yet powerful observation: the most profound breakthroughs 
-                emerge when deep strategic thinking dances with fearless experimentation. We exist at 
+                Dabble was born from a simple yet powerful observation: the most profound breakthroughs
+                emerge when deep strategic thinking dances with fearless experimentation. We exist at
                 the intersection of playful exploration and rigorous intellectual inquiry.
               </p>
               <p>
-                Rooted in Stanford's proven innovation methodologies, we've assembled a living system 
-                for generating what's next. We're not just a consultancy or a product lab—we're a 
+                Rooted in Stanford's proven innovation methodologies, we've assembled a living system
+                for generating what's next. We're not just a consultancy or a product lab—we're a
                 collective consciousness designed to transform complexity into clarity, challenges into opportunities.
               </p>
               <p>
-                Our size is intentional. Twelve brilliant minds, each bringing unique perspectives from 
-                engineering to anthropology, data science to poetry. Large enough for diverse expertise, 
+                Our size is intentional. Eleven brilliant minds, each bringing unique perspectives from
+                engineering to anthropology, data science to poetry. Large enough for diverse expertise,
                 small enough for true collaboration and shared consciousness that larger firms cannot replicate.
               </p>
             </div>
@@ -153,7 +146,7 @@ export default function About() {
         </div>
       </section>
 
-      <TeamGrid 
+      <TeamGrid
         members={teamMembers}
         title="Meet Our Collective"
         subtitle="Each member brings a unique lens—from engineering to anthropology—creating powerful synthesis for every challenge."
@@ -167,7 +160,7 @@ export default function About() {
               Why Our Size Is Our Strength
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              In a world of massive consulting firms and isolated freelancers, we've found the sweet spot: 
+              In a world of massive consulting firms and isolated freelancers, we've found the sweet spot:
               deep collaboration, agility, and shared consciousness.
             </p>
           </div>
@@ -179,7 +172,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-text_primary mb-4">Collective Intelligence</h3>
               <p className="text-gray-600">
-                When 12 diverse minds focus on a challenge, we generate insights that no individual or larger, 
+                When 11 diverse minds focus on a challenge, we generate insights that no individual or larger,
                 fragmented team could achieve. Our ideas cross-pollinate organically.
               </p>
             </div>
@@ -190,7 +183,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-text_primary mb-4">Rapid Adaptation</h3>
               <p className="text-gray-600">
-                Small enough to pivot quickly, large enough to handle complex challenges. We move at 
+                Small enough to pivot quickly, large enough to handle complex challenges. We move at
                 startup speed with the wisdom of seasoned experts.
               </p>
             </div>
@@ -201,7 +194,7 @@ export default function About() {
               </div>
               <h3 className="text-xl font-bold text-text_primary mb-4">Shared Purpose</h3>
               <p className="text-gray-600">
-                Every member is deeply invested in our collective success. No bureaucracy, no silos—just 
+                Every member is deeply invested in our collective success. No bureaucracy, no silos—just
                 passionate minds aligned toward breakthrough solutions.
               </p>
             </div>
@@ -216,10 +209,10 @@ export default function About() {
             Our Virtuous Innovation Cycle
           </h2>
           <p className="text-lg text-gray-600 mb-12 max-w-3xl mx-auto">
-            We operate a dual model that fuels perpetual innovation. Our consulting work and in-house 
+            We operate a dual model that fuels perpetual innovation. Our consulting work and in-house
             products create a powerful feedback loop that makes each side stronger.
           </p>
-          
+
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="bg-primary/5 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-6">
@@ -227,18 +220,18 @@ export default function About() {
               </div>
               <h3 className="text-2xl font-bold text-text_primary mb-4">Consulting</h3>
               <p className="text-gray-600">
-                Immersing ourselves in the world's most complex business challenges provides 
+                Immersing ourselves in the world's most complex business challenges provides
                 real-world insights and keeps us grounded in practical applications.
               </p>
             </div>
-            
+
             <div className="bg-accent/5 p-8 rounded-2xl">
               <div className="w-16 h-16 bg-accent rounded-2xl flex items-center justify-center mx-auto mb-6">
                 <span className="text-white text-2xl font-bold">P</span>
               </div>
               <h3 className="text-2xl font-bold text-text_primary mb-4">Products</h3>
               <p className="text-gray-600">
-                Our in-house creations serve as living laboratories for our most ambitious ideas, 
+                Our in-house creations serve as living laboratories for our most ambitious ideas,
                 allowing us to experiment and refine our methodologies.
               </p>
             </div>
@@ -246,9 +239,9 @@ export default function About() {
         </div>
       </section>
 
-      <CTABanner 
+      <CTABanner
         headline="Ready to experience collective intelligence?"
-        subtext="Let's explore how our curated team of 12 experts can bring fresh perspectives and breakthrough solutions to your biggest challenges."
+        subtext="Let's explore how our curated team of 11 experts can bring fresh perspectives and breakthrough solutions to your biggest challenges."
         buttonText="Start a Conversation"
         buttonHref="/contact"
       />
@@ -256,4 +249,4 @@ export default function About() {
       <Footer />
     </>
   )
-} 
+}

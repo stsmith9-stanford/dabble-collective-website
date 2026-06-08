@@ -17,7 +17,7 @@ The website must clearly and consistently communicate three core pillars of our 
 
 A Process Rooted in World-Class Methodology: "Our work is built on a foundation of Stanford's Design Thinking. We begin with empathetic Needfinding to uncover latent human needs, explore possibilities through Play, and refine solutions through rapid cycles of Prototyping and Iteration. This isn't a checklist; it's the DNA of how we think and create."
 
-The Power of a Cohesive, Multi-disciplinary Team: "Dabble is a curated team of 12 experts. Our size is our strength. It allows for deep collaboration, agility, and a shared consciousness that larger firms cannot replicate. Each member brings a unique lens—from engineering to anthropology—creating a powerful synthesis of perspectives for every challenge."
+The Power of a Cohesive, Multi-disciplinary Team: "Dabble is a curated team of 11 experts. Our size is our strength. It allows for deep collaboration, agility, and a shared consciousness that larger firms cannot replicate. Each member brings a unique lens—from engineering to anthropology—creating a powerful synthesis of perspectives for every challenge."
 
 A Virtuous Cycle of Consulting and Creation: "We operate a dual model that fuels perpetual innovation. Our consulting work immerses us in the world's most complex business challenges, providing real-world insights. These insights, in turn, inspire our in-house products, which serve as living laboratories for our most ambitious ideas. Each side of our business makes the other stronger."
 
@@ -57,7 +57,7 @@ Iteration & Prototyping: The Cycle of Refinement. Showcased with visuals of low-
 Systems Perspective: The Holistic View. Tying it all together, explaining how we consider the entire ecosystem of a problem.
 3. About (/about)
 
-Purpose: To introduce the brilliant individuals who are Dabble and showcase the collective power of our 12-person team.
+Purpose: To introduce the brilliant individuals who are Dabble and showcase the collective power of our 11-person team.
 Content & Structure:
 Our Story: A short narrative about Dabble's founding vision.
 Interactive Team Showcase: Not a static grid of headshots. An interactive constellation or mosaic where hovering over a team member reveals their name and title. Clicking opens a modal with:

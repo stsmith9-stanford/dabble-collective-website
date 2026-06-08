@@ -22,17 +22,6 @@ export const teamMembers = [
     email: 'sanzhar@stanford.edu'
   },
   {
-    id: 'brigid-white',
-    name: 'Brigid White',
-    preferredName: 'Brigid',
-    title: 'UX Designer & Adventure Educator',
-    bio: 'Adobe and NVIDIA alum turned Title 1 teacher. Action sports enthusiast who finds creative inspiration through movement. Explores intersections of play, education, and community through design.',
-    skills: ['UX Design', 'Education', 'Action Sports', 'Storytelling'],
-    image: '/team/headshots/sf-headshot-brigid-white-2503040730.jpg.webp',
-    website: 'https://www.brigidwhite.com/',
-    email: 'brigidw@stanford.edu'
-  },
-  {
     id: 'rishika-gundi',
     name: 'Rishika Gundi',
     preferredName: 'Rishika',
@@ -131,4 +120,4 @@ export const teamMembers = [
     website: 'https://ecsingleton.com',
     email: 'erics22@stanford.edu'
   }
-]; 
+];
